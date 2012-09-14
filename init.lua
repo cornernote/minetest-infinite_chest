@@ -12,7 +12,7 @@ MAIN LOADER
 
 
 -- load api
-dofile(minetest.get_modpath("skyblock").."/api.lua")
+dofile(minetest.get_modpath("infinite_chest").."/api.lua")
 
 -- register nodes
 minetest.register_node("infinite_chest:chest", {

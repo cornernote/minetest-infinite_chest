@@ -106,7 +106,7 @@ infinite_chest.on_receive_fields = function(pos, formname, fields, sender)
 	local meta = minetest.env:get_meta(pos)
 	local page
 	if fields.go ~= nil and fields.page ~= "" then
-		page = string.gsub(fields.page, "%W", "_")
+		page = string.lower(string.gsub(fields.page, "%W", "_"))
 	end
 	if fields.jump ~= nil then
 		page = fields.jump
