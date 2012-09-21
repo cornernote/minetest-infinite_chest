@@ -37,6 +37,7 @@ minetest.register_node("infinite_chest:chest_locked", {
 	legacy_facedir_simple = true,
 	sounds = default.node_sound_wood_defaults(),
 	on_construct = infinite_chest.on_construct,
+	on_receive_fields = infinite_chest.on_receive_fields,
 	can_dig = infinite_chest.can_dig,
 	after_place_node = infinite_chest.after_place_node,
 	allow_metadata_inventory_move = infinite_chest.allow_metadata_inventory_move,
