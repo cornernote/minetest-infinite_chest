@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chests with slots that never run out.">
+
+    <title>Infinite Chest for Minetest</title>
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//cornernote.github.io/minetest-bootstrap-theme/css/minetest.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="ribbon">
+        <a href="https://github.com/cornernote/minetest-infinite_chest">Fork me on GitHub</a>
+    </div>
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Infinite Chest</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#dirt">Features</a>
+                </li>
+                <li>
+                    <a href="#stone">Docs</a>
+                </li>
+                <li>
+                    <a href="#lava">Links</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="header">
+    <div id="header-bg">
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Infinite Chest<br/>
+                    <small>for Minetest</small>
+                </h1>
+
+                <p class="lead">Chests with slots that never run out.</p>
+
+                <p class="buttons">
+                    <a class="btn btn-primary btn-lg" role="button" href="https://github.com/cornernote/minetest-infinite_chest/releases/latest">Download</a>
+                    <a class="btn btn-default btn-lg" role="button" href="https://github.com/cornernote/minetest-infinite_chest">GitHub</a>
+                    <a class="btn btn-default btn-lg" role="button" href="http://minetest.net/forum/viewtopic.php?id=3053">Minetest</a>
+                    <a class="btn btn-default btn-lg" role="button" href="http://cornernote.github.io/minetest">CoRNeRNoTe</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="content">
+    <a id="dirt"></a>
+
+    <div class="section section-dirt">
+        <div class="container">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="thumbnail">
+                            <a href="img/screenshot.png" class="fancybox" rel="screenshots"><img src="img/screenshot.png" alt="screenshot"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <h2>Features</h2>
+                        <ul>
+                            <li>Name your chest slots so you can easily find your items.</li>
+                            <li>Last accessed slot appears at the top of the list.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a id="stone"></a>
+
+    <div class="section section-docs">
+
+        <div class="container">
+
+            <h2>Docs</h2>
+
+            <h3 id="docs/requirements">Requirements</h3>
+
+            <ul>
+                <li>
+                    <a href="http://minetest.net">Minetest</a> >=0.4.3
+                </li>
+                <li>
+                    <a href="http://cornernote.github.io/minetest-inventory-plus">Inventory Plus</a> >=1.0.0
+                </li>
+            </ul>
+
+            <h3 id="docs/installation">Installation</h3>
+
+            <p>Download and uncompress the
+                <a href="https://github.com/cornernote/minetest-infinite_chest/archive/master.zip">latest version</a>, and move the the
+                <code>minetest-infinite_chest-master</code> folder into your
+                <code>minetest/mods</code> folder.</p>
+
+
+            <h3 id="docs/craft">Crafting Guide</h3>
+
+            <p>The material used below are:</p>
+            <ul>
+                <li><code>C</code> = <code>Chest</code></li>
+                <li><code>M</code> = <code>Mese</code></li>
+                <li><code>-</code> = <code>empty</code></li>
+            </ul>
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <h4>Infinite Chest</h4>
+                <pre class="craft">CCC
+C-C
+CCC</pre>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Infinite Locked Chest</h4>
+                <pre class="craft">CCC
+CMC
+CCC</pre>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div id="footer">
+    <a id="lava"></a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="well">
+                    <h4>Support</h4>
+                    <ul class="list-unstyled">
+                        <li>Does this site need improvement? Go ahead and
+                            <a href="https://github.com/cornernote/minetest-infinite_chest/edit/gh-pages/index.html">suggest a change</a>.
+                        </li>
+                        <li>Found a bug, or need help using this project? Check the
+                            <a href="https://github.com/cornernote/minetest-infinite_chest/issues">open issues</a> or
+                            <a href="https://github.com/cornernote/minetest-infinite_chest/issues/new">create an issue</a>.
+                        </li>
+                    </ul>
+                </div>
+                <div class="well">
+                    <h4>About</h4>
+
+                    <p>This project is open source, so it's distributed freely. If you find it useful then I ask not
+                        for your wealth, but simply to spare your time to consider the world we share by watching
+                        <a href="http://earthlings.com/">Earthlings</a>, a multi-award winning film available to watch online for free.
+                        A must-see for anyone who wishes to make the world a better place.</p>
+
+                </div>
+                <div class="well">
+                    <h4>License</h4>
+
+                    <p>
+                        <a href="license.html" class="fancybox" data-fancybox-type="ajax">BSD-3-Clause</a>, Copyright &copy; 2014
+                        <a href="http://cornernote.github.io/">Brett O'Donnell</a></p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="well">
+                    <h4>Infinite Chest<br/>
+                        <small>for Minetest</small>
+                    </h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://github.com/cornernote/minetest-infinite_chest">GitHub Project</a></li>
+                        <li><a href="http://minetest.net/forum/viewtopic.php?id=3053">Minetest Forum Page</a></li>
+                    </ul>
+                </div>
+                <div class="well">
+                    <h4>Resources</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="http://minetest.net/">Minetest Website</a></li>
+                        <li><a href="http://cornernote.github.io/minetest">CoRNeRNoTe's Minetest</a></li>
+                        <li><a href="http://cornernote.github.io/minetest-inventory-plus">Inventory Plus</a></li>
+                    </ul>
+                </div>
+                <div class="well">
+                    <h4>Minetest Theme</h4>
+
+                    <p>This
+                        <a href="http://cornernote.github.io/minetest-bootstrap-theme">Minetest Theme for
+                            Twitter Bootstrap</a> is available for download.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- load js last -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+<script src="//google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".fancybox").fancybox();
+    });
+</script>
+
+</body>
+</html>
