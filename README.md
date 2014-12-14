@@ -13,7 +13,7 @@ Chests with slots that never run out.
 
 - **[Documentation](http://cornernote.github.io/minetest-infinite_chest)**
 - **[GitHub Project](https://github.com/cornernote/minetest-infinite_chest)**
-- **[Minetest Forum](http://minetest.net/forum/viewtopic.php?id=3099)**
+- **[Minetest Forum](https://forum.minetest.net/viewtopic.php?id=3099)**
 
 ## Support
 
