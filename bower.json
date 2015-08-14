@@ -1,0 +1,15 @@
+{
+    "name": "infinite_chest",
+    "description": "Chests with slots that never run out!",
+    "keywords": [
+        "infinite_chest"
+    ],
+    "homepage": "http://cornernote.github.io/minetest-infinite_chest/",
+    "forum": "http://forum.minetest.net/viewtopic.php?t=3053",
+    "screenshots": [
+        "https://cornernote.github.io/minetest-infinite_chest/img/screenshot1.png"
+    ],
+    "authors": [
+        "cornernote"
+    ]
+}
