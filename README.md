@@ -1,6 +1,15 @@
 # Infinite Chest for Minetest
 
-Chests with slots that never run out.
+[![home](https://img.shields.io/badge/infinite_chest-home-blue.svg?style=flat-square)](http://cornernote.github.io/minetest-infinite_chest/)
+[![download](https://img.shields.io/github/tag/cornernote/minetest-infinite_chest.svg?style=flat-square&label=release)](https://github.com/cornernote/minetest-infinite_chest/archive/master.zip)
+[![git](https://img.shields.io/badge/git-project-green.svg?style=flat-square)](https://github.com/cornernote/minetest-infinite_chest)
+[![forum](https://img.shields.io/badge/minetest-mod-green.svg?style=flat-square)](http://forum.minetest.net/viewtopic.php?t=3053)
+[![bower](https://img.shields.io/badge/bower-mod-green.svg?style=flat-square)](https://minetest-bower.herokuapp.com/mods/infinite_chest)
+
+
+## Description
+
+Chests with slots that never run out!
 
 
 ## Features
@@ -9,11 +18,14 @@ Chests with slots that never run out.
 - Last accessed slot appears at the top of the list.
 
 
-## Resources
+## Project Resources
 
-- **[Documentation](http://cornernote.github.io/minetest-infinite_chest)**
-- **[GitHub Project](https://github.com/cornernote/minetest-infinite_chest)**
-- **[Minetest Forum](https://forum.minetest.net/viewtopic.php?id=3099)**
+* [Home](http://cornernote.github.io/minetest-infinite_chest/)
+* [Download](https://github.com/cornernote/minetest-infinite_chest/archive/master.zip)
+* [Project](https://github.com/cornernote/minetest-infinite_chest)
+* [Forum](http://forum.minetest.net/viewtopic.php?t=3053)
+* [Bower](https://minetest-bower.herokuapp.com/mods/infinite_chest)
+* 
 
 ## Support
 
