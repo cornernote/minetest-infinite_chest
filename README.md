@@ -25,7 +25,7 @@ Chests with slots that never run out!
 * [Project](https://github.com/cornernote/minetest-infinite_chest)
 * [Forum](http://forum.minetest.net/viewtopic.php?t=3053)
 * [Bower](https://minetest-bower.herokuapp.com/mods/infinite_chest)
-* 
+
 
 ## Support
 
